@@ -16,4 +16,12 @@ public interface Controller {
     void load();
 
     void afisare();
+
+    public List<Ball> getBallsByBrand(String brand);
+
+    public int nextID();
+
+    public void add(Ball ball);
+
+    public List<Ball> getBallsBySize(int size);
 }

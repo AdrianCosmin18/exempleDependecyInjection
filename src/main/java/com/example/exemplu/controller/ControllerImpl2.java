@@ -41,4 +41,19 @@ public class ControllerImpl2 implements Controller{
             System.out.println(b);
         }
     }
+
+    @Override
+    public List<Ball> getBallsByBrand(String brand){return null;}
+
+    public int nextID(){return 0;}
+
+    @Override
+    public void add(Ball ball) {
+
+    }
+
+    @Override
+    public List<Ball> getBallsBySize(int size) {
+        return null;
+    }
 }

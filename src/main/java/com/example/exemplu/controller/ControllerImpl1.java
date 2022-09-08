@@ -43,4 +43,22 @@ public class ControllerImpl1 implements Controller{
             System.out.println(b);
         }
     }
+
+    @Override
+    public List<Ball> getBallsByBrand(String brand){
+
+        return this.balls.stream().filter(b -> b.getBrand().equals(brand)).toList();
+    }
+
+    public int nextID(){
+        return this.balls.get(this.balls.size() - 1).getId() + 1;
+    }
+
+    public void add(Ball ball){
+        this.balls.add(ball);
+    }
+
+    public List<Ball> getBallsBySize(int size){
+        return this.balls.stream().filter(ball -> ball.getSize() == size).toList();
+    }
 }

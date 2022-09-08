@@ -1,3 +1,5 @@
 1,Nike,orange-blue,4,385
 2,Adidas,white-silver,5,350
-3,Puma,black-white-yellow,4,360
+3,Puma,black-white-yellow,4,3604
+4,Nike,white-red,5,350
+5,Nike,colorful,5,400
